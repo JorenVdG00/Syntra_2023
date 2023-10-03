@@ -2,9 +2,7 @@ def oppDriehoek(basis, hoogte):
     return (basis*hoogte)/2
 def volKubus(zijde):
     return zijde**3
-def tweelaatste(nr):
-    return nr%100
-print(tweelaatste(793257))
+
 print(volKubus(25))
 print(oppDriehoek(15,36))
 
@@ -20,6 +18,9 @@ def gemiddelde(lijstgetallen):
     return som/len(lijstgetallen)
 print(gemiddelde([1,2,3,7,9,5,4,6,8]))
 
+def tweelaatste(nr):
+    return nr%100
+print(tweelaatste(793257))
 def tweelaatsteB(tekst):
     tekstB = str(tekst)
     return tekstB[(len(tekstB)-2):len(tekstB)]
