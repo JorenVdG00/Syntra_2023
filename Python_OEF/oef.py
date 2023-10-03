@@ -19,3 +19,11 @@ def gemiddelde(lijstgetallen):
         som+=getallen
     return som/len(lijstgetallen)
 print(gemiddelde([1,2,3,7,9,5,4,6,8]))
+
+def tweelaatsteB(tekst):
+    tekstB = str(tekst)
+    return tekstB[(len(tekstB)-2):len(tekstB)]
+print(tweelaatsteB(793257))
+
+getal=123
+print(tweelaatsteB(str(getal)))
